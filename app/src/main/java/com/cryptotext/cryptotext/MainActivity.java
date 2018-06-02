@@ -96,14 +96,12 @@ public class MainActivity extends AppCompatActivity {
                         .setMessage("Which One?")
                         .setPositiveButton("ENCODE", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
-                                // continue with delete
                                 encodeMessage.resetText();
                                 Toast.makeText(getApplicationContext(), "Done!", Toast.LENGTH_SHORT).show();
                             }
                         })
                         .setNegativeButton("DECODE", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
-                                // do nothing
                                 decodeMessage.resetText();
                                 Toast.makeText(getApplicationContext(), "Done!", Toast.LENGTH_SHORT).show();
                             }
@@ -120,14 +118,12 @@ public class MainActivity extends AppCompatActivity {
                         .setMessage("Interesting App Isn't It?")
                         .setPositiveButton("YES", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
-                                // continue with delete
                                 Toast.makeText(getApplicationContext(),
                                         "Yep, Thanks for agreeing!", Toast.LENGTH_LONG).show();
                             }
                         })
                         .setNegativeButton("NO", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
-                                // do nothing
                                 Toast.makeText(getApplicationContext(),
                                         "Hmm, Sad but thanks for downloading :)", Toast.LENGTH_LONG).show();
                             }
@@ -140,12 +136,11 @@ public class MainActivity extends AppCompatActivity {
                 /* Just a dialog box */
                 builder = new android.support.v7.app.AlertDialog.Builder(this);
                 builder.setTitle("Help?")
-                        .setMessage("Just type in your text and send it to your secret partner. " +
+                        .setMessage("Just type in your text, do the magic and send it to anyone. " +
                                 "Make sure they have this app else they will start scratching their head!")
                         .setPositiveButton("Okay", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
-                                // continue with delete
-                                Toast.makeText(getApplicationContext(), "COOL!", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "AWESOME!", Toast.LENGTH_SHORT).show();
                             }
                         }).show();
 

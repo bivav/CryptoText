@@ -70,6 +70,7 @@ public class EncodeMessage extends Fragment {
 
                             if (one_letter.isChecked()) {
                                 switch (letters[j]) {
+
                                     case "Z":
                                         splitText[i] = letters[0];
                                         break;
@@ -79,6 +80,7 @@ public class EncodeMessage extends Fragment {
                                 }
                                 break;
                             } else if (two_letters.isChecked()) {
+
                                 switch (letters[j]) {
                                     case "Y":
                                         splitText[i] = letters[0];

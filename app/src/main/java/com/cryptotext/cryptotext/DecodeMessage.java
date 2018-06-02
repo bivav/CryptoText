@@ -68,6 +68,7 @@ public class DecodeMessage extends Fragment {
 
                             if (one_letter.isChecked()) {
                                 switch (letters[j]) {
+
                                     case "A":
                                         splitText[i] = letters[25];
                                         break;
