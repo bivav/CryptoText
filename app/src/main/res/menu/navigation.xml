@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/encode"
+        android:icon="@drawable/ic_encode"
+        android:id="@+id/encode_message_menu"
+        />
+
+    <item
+        android:title="@string/decode"
+        android:icon="@drawable/ic_decode"
+        android:id="@+id/decode_message_menu"
+        />
+
+</menu>
